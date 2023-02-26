@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994663014321",
+    "project_id": "wekatuu-d998f",
+    "storage_bucket": "wekatuu-d998f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994663014321:android:74ecdba54f3b4d30e22790",
+        "android_client_info": {
+          "package_name": "com.jaribu.wekatuu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994663014321-epaorrq1qmkqeo5c2j0vcr9pd454jvv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4-3hVYiiRk8KWtkiIYJW5Sfa8COJZ44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994663014321-epaorrq1qmkqeo5c2j0vcr9pd454jvv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

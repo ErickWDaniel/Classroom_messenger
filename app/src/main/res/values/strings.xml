@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ATC_CLASS-CONNECT</string>
+    <string name="let_start_erick">Let Start Erick</string>
+    <string name="enter_user_name">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="sign_up">SignUp</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_admission_number">Admission Number</string>
+    <string name="enter_email">Email</string>
+    <string name="atclogo">atclogo</string>
+    <string name="enter_phone_number">Phone Number</string>
+    <string name="uploadicon">uploadicon</string>
+    <string name="enter_admission">Admission</string>
+    <string name="loginlogo">loginlogo</string>
+    <string name="show_password">Show password</string>
+</resources>

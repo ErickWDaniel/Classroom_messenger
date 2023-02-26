@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Signup">
+
+    <ImageView
+        android:id="@+id/atclogoSinup"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/atclogo"
+        android:src="@drawable/a" />
+
+    <EditText
+        android:id="@+id/editTextNameSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atclogoSinup"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="testStart"
+        android:background="@drawable/editviewlog"
+        android:hint="@string/enter_user_name"
+        android:inputType="textAutoCorrect"
+        android:minHeight="48dp"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        tools:ignore="VisualLintTextFieldSize"
+        android:paddingLeft="5dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextAdmissionNumberSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNameSignup"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="@drawable/editviewlog"
+        android:hint="@string/enter_admission_number"
+        android:inputType="number"
+
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:paddingLeft="5dp"
+        android:textSize="30sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextEmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAdmissionNumberSignUp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="@drawable/editviewlog"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:paddingLeft="5dp"
+        android:textSize="30sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumberSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmailSignup"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="@drawable/editviewlog"
+        android:hint="@string/enter_phone_number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="textStart"
+        android:paddingLeft="5dp"
+        android:textSize="30sp"
+        tools:ignore="VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/editTextPasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhoneNumberSignup"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+
+        android:background="@drawable/editviewlog"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+    <LinearLayout
+        android:background="@color/atcgreen"
+        android:backgroundTint="@color/atcyellow"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/editTextPasswordSignup"
+        >
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/roundbuttonupload"
+            android:contentDescription="@string/uploadicon" />
+
+        <Button
+            android:id="@+id/buttonSingUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            tools:ignore="TextContrastCheck"
+
+            android:focusable="true">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

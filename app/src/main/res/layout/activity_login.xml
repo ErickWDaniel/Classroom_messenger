@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/atclogo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/a"
+        android:contentDescription="@string/atclogo" />
+
+ <LinearLayout
+     android:id="@+id/layoutone"
+     android:orientation="horizontal"
+     android:layout_width="350dp"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/atclogo"
+     android:background="@drawable/editviewlog"
+     android:layout_marginTop="10dp"
+     android:layout_centerInParent="true"
+
+     >
+
+     <EditText
+         android:id="@+id/editTextLogin"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:autofillHints=""
+         android:hint="@string/enter_email"
+         android:inputType="textEmailAddress"
+         android:minHeight="48dp"
+         android:textAlignment="textStart"
+         android:textSize="30sp"
+         tools:ignore="VisualLintTextFieldSize"
+         android:drawableStart="@drawable/usericonyetu"
+         android:padding="10dp"/>
+
+
+
+ </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutwo"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutone"
+        android:background="@drawable/editviewlog"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+
+        >
+    <EditText
+
+
+        android:id="@+id/editTextPasswordLogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:hint="@string/enter_password"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        tools:ignore="VisualLintTextFieldSize"
+        android:drawableStart="@drawable/passwordiconyetu"
+        android:padding="10dp"/>
+        <CheckBox
+            android:id="@+id/showPasswordCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutwo"
+        android:layout_centerInParent="true"
+        android:text="@string/sign_up"
+        android:textColor="@color/atcgreenish"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+  <LinearLayout
+      android:background="@color/atcgreen"
+      android:backgroundTint="@color/atcyellow"
+      android:layout_centerInParent="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_below="@+id/textViewSignup"
+      android:layout_marginTop="5dp"
+      >
+
+      <ImageView
+
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/roundbuttonlogin"
+          android:contentDescription="@string/loginlogo" />
+
+      <Button
+          android:id="@+id/buttonLogin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:background="@drawable/buttonbackground"
+          android:text="@string/login"
+          android:textColor="@color/white"
+          android:textSize="19sp"
+          tools:ignore="TextContrastCheck">
+
+      </Button>
+
+  </LinearLayout>
+
+</RelativeLayout>
